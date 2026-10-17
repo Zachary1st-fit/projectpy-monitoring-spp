@@ -18,7 +18,7 @@ while True:
     pilihan = input("Pilih menu utama: ")
 
     if pilihan == "1":
-        menu_siswa(siswa)
+        menu_siswa(siswa, pembayaran)
     elif pilihan == "2":
         menu_pembayaran(siswa, pembayaran)
     elif pilihan == "3":

@@ -34,7 +34,8 @@ def bayar_spp(siswa, pembayaran):
         print("Silakan tambahkan siswa terlebih dahulu.")
         return
 
-    nisn_bayar = input("Masukkan NISN siswa: ")
+    nisn_bayar = input("Masukkan NISN siswa: ").strip()
+    #nisn_bayar = input("Masukkan NISN siswa: ")
 
     siswa_ditemukan = None
     for data in siswa:
